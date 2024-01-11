@@ -33,7 +33,7 @@
             sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
-        window {
+        windows {
             bindings = <
                 &trans         &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &mt LCTRL TAB  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
