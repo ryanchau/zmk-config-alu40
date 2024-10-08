@@ -58,10 +58,10 @@
 
         base {
             bindings = <
-                &kp TAB          &kp Q      &kp W     &kp E                  &kp R           &kp T           &kp Y           &kp U           &kp I      &kp O     &kp P           &bspc_del
-                &mt LGUI ESCAPE  &kp A      &kp S     &kp D                  &kp F           &kp G           &kp H           &kp J           &kp K      &kp L     &lt ARROW SEMI  &kp SQT
-                &kp LSHFT        &kp Z      &kp X     &kp C                  &kp V           &kp B           &kp N           &kp M           &kp COMMA  &kp DOT   &kp FSLH        &mt RSHFT ENTER
-                &kp CAPSLOCK     &kp LGUI  &kp LALT   &ht_tmux_ctrl LCTRL 0  &lt CTRL SPACE  &lt CTRL SPACE  &lt CTRL ENTER  &lt CTRL ENTER  &kp LEFT   &kp DOWN  &kp UP          &kp RIGHT
+                &kp TAB           &kp Q      &kp W     &kp E                  &kp R           &kp T           &kp Y           &kp U           &kp I      &kp O     &kp P           &bspc_del
+                &mt LCTRL ESCAPE  &kp A      &kp S     &kp D                  &kp F           &kp G           &kp H           &kp J           &kp K      &kp L     &lt ARROW SEMI  &kp SQT
+                &kp LSHFT         &kp Z      &kp X     &kp C                  &kp V           &kp B           &kp N           &kp M           &kp COMMA  &kp DOT   &kp FSLH        &mt RSHFT ENTER
+                &kp CAPSLOCK      &kp LGUI  &kp LALT   &ht_tmux_ctrl LCTRL 0  &lt CTRL SPACE  &lt CTRL SPACE  &lt CTRL ENTER  &lt CTRL ENTER  &kp LEFT   &kp DOWN  &kp UP          &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
